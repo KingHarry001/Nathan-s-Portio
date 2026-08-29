@@ -93,7 +93,7 @@ export const About: React.FC = () => {
                 </div>
                 <div>
                   <div className="text-[10px] uppercase tracking-wider text-zinc-500 font-medium">Experience</div>
-                  <div className="text-sm font-semibold text-zinc-800 dark:text-zinc-200">6+ Years Active</div>
+                  <div className="text-sm font-semibold text-zinc-800 dark:text-zinc-200">0 Years Active</div>
                 </div>
               </div>
             </div>

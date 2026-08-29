@@ -13,15 +13,11 @@ export const personalInfo = {
   shortBio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   tagline: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.',
   status: 'Open for high-impact roles & technical consulting',
-  location: 'London, UK / Remote Worldwide',
-  email: 'nathan.adenekan@gmail.com',
-  github: 'https://github.com',
-  linkedin: 'https://linkedin.com',
-  twitter: 'https://twitter.com',
-  yearsExperience: '6+',
-  projectsCompleted: '45+',
-  codeQualityScore: '99.8%',
-  openSourceStars: '1.2k+',
+  location: 'British Columbia, Canada / Remote Worldwide',
+  email: 'adenekannathan@gmail.com',
+  github: 'https://github.com/nathan1268',
+  yearsExperience: '0',
+  projectsCompleted: '3',
 };
 
 export const navItems: NavItem[] = [
@@ -33,10 +29,8 @@ export const navItems: NavItem[] = [
 ];
 
 export const heroStats = [
-  { label: 'Years of Craft', value: '6+' },
-  { label: 'Shipped Products', value: '40+' },
-  { label: 'Client Satisfaction', value: '100%' },
-  { label: 'Code Quality', value: 'A+' },
+  { label: 'Years of Craft', value: '0' },
+
 ];
 
 export const values: ValueCard[] = [
@@ -132,7 +126,7 @@ export const experienceData: ExperienceMilestone[] = [
     period: '2019 - 2021',
     role: 'Full Stack Software Engineer',
     company: 'Vanguard Digital Lab',
-    location: 'London, UK',
+    location: 'British Columbia, Canada',
     description: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.',
     achievements: [
       'Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus.',
@@ -145,27 +139,15 @@ export const experienceData: ExperienceMilestone[] = [
 export const socialLinks: SocialLink[] = [
   {
     name: 'GitHub',
-    url: 'https://github.com',
+    url: 'https://github.com/nathan1268',
     iconName: 'Github',
-    handle: '@nathan-adenekan',
-  },
-  {
-    name: 'LinkedIn',
-    url: 'https://linkedin.com',
-    iconName: 'Linkedin',
-    handle: '/in/nathan-adenekan',
-  },
-  {
-    name: 'Twitter / X',
-    url: 'https://twitter.com',
-    iconName: 'Twitter',
-    handle: '@nathan_dev',
+    handle: '@nathan1268',
   },
   {
     name: 'Email',
-    url: 'mailto:nathan.adenekan@gmail.com',
+    url: 'mailto:adenekannathan@gmail.com',
     iconName: 'Mail',
-    handle: 'nathan.adenekan@gmail.com',
+    handle: 'adenekannathan@gmail.com',
   },
 ];
 

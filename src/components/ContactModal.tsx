@@ -84,7 +84,7 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) =
               Start a <span className="font-serif italic font-normal text-indigo-600 dark:text-indigo-400">Conversation</span>
             </h3>
             <p className="text-xs text-zinc-600 dark:text-zinc-400 mb-6 font-light">
-              Drop a quick note below or reach out via direct email or LinkedIn.
+              Drop a quick note below or reach out via direct email or GitHub.
             </p>
 
             {/* Quick Copy Email Box */}
