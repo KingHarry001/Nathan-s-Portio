@@ -9,10 +9,10 @@ import {
 
 export const personalInfo = {
   name: 'Nathan Adenekan',
-  role: 'Senior Full Stack Engineer & UI Architect',
-  shortBio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  tagline: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.',
-  status: 'Open for high-impact roles & technical consulting',
+  role: 'Developer & Game Creator',
+  shortBio: 'I specialize in coding, building modern responsive websites, and creating engaging game experiences.',
+  tagline: 'Passionate about coding, web development, and interactive game design.',
+  status: 'Open for projects, collaboration & opportunities',
   location: 'British Columbia, Canada / Remote Worldwide',
   email: 'adenekannathan@gmail.com',
   github: 'https://github.com/nathan1268',
@@ -35,23 +35,23 @@ export const heroStats = [
 
 export const values: ValueCard[] = [
   {
-    title: 'Precision & Performance',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
+    title: 'Clean Code & Performance',
+    description: 'Writing readable, maintainable code and optimizing runtime performance across web apps and games.',
     iconName: 'Zap',
   },
   {
-    title: 'Accessible & Inclusive',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint.',
+    title: 'Interactive Experiences',
+    description: 'Designing intuitive user interfaces, fluid animations, and engaging interactive mechanics.',
     iconName: 'Sparkles',
   },
   {
-    title: 'Scalable Architecture',
-    description: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    title: 'Scalable Systems',
+    description: 'Structuring robust frontend and backend architectures that grow smoothly as features expand.',
     iconName: 'Cpu',
   },
   {
-    title: 'Fluid Craftsmanship',
-    description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.',
+    title: 'Creative Craftsmanship',
+    description: 'Blending technology, game design, and visual aesthetics to build memorable digital projects.',
     iconName: 'Palette',
   },
 ];
@@ -65,8 +65,8 @@ export const skillsData: Skill[] = [
     level: 86,
     experience: '6 wks',
     iconName: 'Server',
-    tags: ['Functions', 'Aritemtric Operators', 'Loops'],
-    description: 'Python is a high level languages. (HLL)',
+    tags: ['Functions', 'Arithmetic Operators', 'Loops'],
+    description: 'Python is a high-level programming language used for scripting, backend logic, and automation.',
     isFavorite: true,
   },
 ];
@@ -74,65 +74,41 @@ export const skillsData: Skill[] = [
 export const interestsData: Interest[] = [
   {
     id: 'gaming',
-    title: 'Gaming',
+    title: 'Game Development',
     category: 'Creative Tech',
     iconName: 'Cpu',
-    tagline: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.',
-    highlights: ['Lorem ipsum dolor sit amet', 'Consectetur adipiscing elit', 'Sed do eiusmod tempor'],
+    tagline: 'Designing gameplay mechanics, physics, and interactive worlds.',
+    description: 'Passionate about coding games, experimenting with game logic, mechanics, audio integration, and interactive storytelling.',
+    highlights: ['Game Mechanics & Systems', 'Physics & Player Controls', 'Interactive Prototyping'],
     color: 'from-amber-500/20 to-orange-500/20 text-amber-600 dark:text-amber-400 border-amber-500/30',
-    stats: { label: 'Shader Demos', value: '25+' },
+    stats: { label: 'Prototypes', value: '3+' },
   },
   {
     id: 'open-source',
     title: 'Basketball',
     category: 'Ecosystem',
     iconName: 'Terminal',
-    tagline: 'Duis aute irure dolor in reprehenderit in voluptate velit.',
-    description: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.',
-    highlights: ['Duis aute irure dolor in', 'Reprehenderit in voluptate', 'Velit esse cillum dolore'],
+    tagline: 'Staying active on the court and building team discipline.',
+    description: 'Playing basketball to stay sharp, focused, and energized both on and off the court.',
+    highlights: ['Teamwork & Communication', 'Strategic Thinking', 'Active Lifestyle'],
     color: 'from-blue-500/20 to-indigo-500/20 text-blue-600 dark:text-blue-400 border-blue-500/30',
-    stats: { label: 'OS Contributions', value: '180+' },
+    stats: { label: 'Weekly Runs', value: '4+' },
   },
 ];
 
 export const experienceData: ExperienceMilestone[] = [
   {
-    period: '2023 - Present',
-    role: 'Staff / Lead Full Stack Engineer',
-    company: 'Nexus Cloud Systems',
-    location: 'Remote / London',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.',
-    achievements: [
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.',
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.',
-      'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia.',
-    ],
-    technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Node.js', 'PostgreSQL', 'Docker', 'Google Cloud'],
-  },
-  {
-    period: '2021 - 2023',
-    role: 'Senior Frontend Engineer',
-    company: 'Aetheric Interactive',
-    location: 'London, UK',
-    description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.',
-    achievements: [
-      'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.',
-      'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur.',
-    ],
-    technologies: ['React', 'Next.js', 'Framer Motion', 'GraphQL', 'Tailwind CSS', 'Playwright'],
-  },
-  {
-    period: '2019 - 2021',
-    role: 'Full Stack Software Engineer',
-    company: 'Vanguard Digital Lab',
+    period: 'August 2026 - Present',
+    role: 'Software Developer & Game Creator',
+    company: 'Independent Projects',
     location: 'British Columbia, Canada',
-    description: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.',
+    description: 'Developing custom web applications, responsive websites, and interactive game prototypes.',
     achievements: [
-      'Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus.',
-      'Itaque earum rerum hic tenetur a sapiente delectus ut aut reiciendis.',
+      'Engineered responsive web applications focusing on usability and clean design.',
+      'Developed interactive game mechanics and logic prototypes.',
+      'Authored modular, reusable code components with modern development tools.',
     ],
-    technologies: ['React', 'TypeScript', 'Node.js', 'Express', 'Redis', 'Docker'],
+    technologies: ['Python', 'TypeScript', 'React', 'HTML5/CSS3', 'Tailwind CSS', 'Git'],
   },
 ];
 

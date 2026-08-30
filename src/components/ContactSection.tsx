@@ -107,7 +107,7 @@ export const ContactSection: React.FC<ContactSectionProps> = () => {
                 <MapPin className="w-4 h-4 text-indigo-500 shrink-0" />
                 <div>
                   <div className="text-[10px] uppercase tracking-wider text-zinc-500 font-medium">Location</div>
-                  <div className="text-xs sm:text-sm font-semibold text-zinc-800 dark:text-zinc-200">London (UTC+1)</div>
+                  <div className="text-xs sm:text-sm font-semibold text-zinc-800 dark:text-zinc-200">British Columbia, Canada</div>
                 </div>
               </div>
 

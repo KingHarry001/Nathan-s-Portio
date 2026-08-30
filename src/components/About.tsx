@@ -47,14 +47,14 @@ export const About: React.FC = () => {
             <span>Philosophy & Journey</span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 mb-4 font-sans">
-            Engineering with empathy &{' '}
+            Crafting digital worlds with{' '}
             <span className="font-serif italic font-normal text-indigo-600 dark:text-indigo-400">
-              relentless focus on craft
+              clean code & creativity
             </span>
             .
           </h2>
           <p className="text-base sm:text-lg text-zinc-600 dark:text-zinc-400 max-w-3xl leading-relaxed font-light">
-            I’m Nathan Adenekan, a software engineer and UI architect. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            I’m Nathan Adenekan, a passionate developer building interactive websites, software applications, and game development projects.
           </p>
         </div>
 
@@ -67,13 +67,13 @@ export const About: React.FC = () => {
                 The Journey & Vision
               </h3>
               <p>
-                Hi, I'm Nathan. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Hi, I'm Nathan. I love coding and transforming ideas into functional software, responsive websites, and engaging games. I enjoy writing clean, logical code that solves real problems and creates memorable interactive experiences.
               </p>
               <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Whether designing responsive web interfaces with modern frameworks or experimenting with game mechanics and physics, I focus on hands-on building, fast iteration, and continuous learning.
               </p>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                My goal is to keep mastering new programming tools, exploring new game design concepts, and building projects that deliver both great performance and genuine enjoyment.
               </p>
             </div>
 

@@ -86,9 +86,9 @@ export const Hero: React.FC<HeroProps> = ({ onOpenContact }) => {
               id="hero-main-title"
               className="text-4xl sm:text-6xl md:text-7xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 leading-[1.05] mb-6"
             >
-              Building resilient systems with{' '}
+              Building websites & games with{' '}
               <span className="font-serif italic font-normal tracking-normal text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-indigo-400 to-emerald-400 dark:from-indigo-400 dark:via-indigo-300 dark:to-emerald-400">
-                fluid design & precision
+                clean code & creativity
               </span>
               .
             </motion.h1>
@@ -201,34 +201,30 @@ export const Hero: React.FC<HeroProps> = ({ onOpenContact }) => {
                   <div className="space-y-2">
                     <div>
                       <span className="text-indigo-400">const</span>{' '}
-                      <span className="text-indigo-200">architect</span> = &#123;
+                      <span className="text-indigo-200">developer</span> = &#123;
                     </div>
                     <div className="pl-4">
                       <span className="text-zinc-500">name:</span>{' '}
                       <span className="text-emerald-300">"{personalInfo.name}"</span>,
                     </div>
                     <div className="pl-4">
-                      <span className="text-zinc-500">specialization:</span>{' '}
-                      <span className="text-indigo-300">"Full Stack & UI Systems"</span>,
-                    </div>
-                    <div className="pl-4">
-                      <span className="text-zinc-500">coreStack:</span> [
-                      <span className="text-emerald-300">"React 19"</span>,{' '}
-                      <span className="text-emerald-300">"TypeScript"</span>,{' '}
-                      <span className="text-emerald-300">"Tailwind CSS"</span>,{' '}
-                      <span className="text-emerald-300">"Node.js"</span>
+                      <span className="text-zinc-500">passions:</span> [
+                      <span className="text-indigo-300">"Coding"</span>,{' '}
+                      <span className="text-indigo-300">"Websites"</span>,{' '}
+                      <span className="text-indigo-300">"Game Dev"</span>
                       ],
                     </div>
                     <div className="pl-4">
-                      <span className="text-zinc-500">cloud:</span> [
-                      <span className="text-indigo-300">"Docker"</span>,{' '}
-                      <span className="text-indigo-300">"GCP"</span>,{' '}
-                      <span className="text-indigo-300">"PostgreSQL"</span>
+                      <span className="text-zinc-500">tools:</span> [
+                      <span className="text-emerald-300">"Python"</span>,{' '}
+                      <span className="text-emerald-300">"React"</span>,{' '}
+                      <span className="text-emerald-300">"TypeScript"</span>,{' '}
+                      <span className="text-emerald-300">"Tailwind CSS"</span>
                       ],
                     </div>
                     <div className="pl-4">
                       <span className="text-zinc-500">focus:</span>{' '}
-                      <span className="text-emerald-400">"Speed, Type Safety & Fluid UX"</span>,
+                      <span className="text-emerald-400">"Interactive Mechanics & Clean Code"</span>,
                     </div>
                     <div className="pl-4">
                       <span className="text-zinc-500">isAvailable:</span>{' '}
@@ -236,7 +232,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenContact }) => {
                     </div>
                     <div>&#125;;</div>
                     <div className="pt-2 text-zinc-600 flex items-center gap-2">
-                      <span className="text-emerald-400 font-bold">$</span> ready to deploy impact...
+                      <span className="text-emerald-400 font-bold">$</span> python main.py --build-experience
                     </div>
                   </div>
                 ) : (
